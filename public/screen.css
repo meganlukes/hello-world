@@ -16,7 +16,7 @@ h1,
 h3 {
   color: burlywood;
   background-color: green;
-  border: 10px solid rgb(102, 53, 53);
+  border: 8px solid rgb(102, 53, 53);
   border-radius: 2rem;
   padding: 1rem;
   font-family: 'Merienda', cursive;
@@ -28,6 +28,9 @@ p::after {
 p,
 img {
   margin: 1%;
+}
+img {
+  border: 10px solid rgb(4, 66, 28);
 }
 p:hover {
   background-color: black;
