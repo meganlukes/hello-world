@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');  */
+
 :root {
   font: 18px / 1 sans-serif;
 }
@@ -11,15 +13,22 @@ body {
   min-height: 100%;
 }
 h1,
-h2 {
+h3 {
   color: burlywood;
   background-color: green;
   border: 10px solid rgb(102, 53, 53);
   border-radius: 2rem;
   padding: 1rem;
-  font: 50px / 1 papyrus;
+  font-family: 'Merienda', cursive;
 }
 h2 {
 }
 p {
+}
+p:hover {
+  background-color: black;
+  color: white;
+}
+.bold {
+  font-weight: bold;
 }
