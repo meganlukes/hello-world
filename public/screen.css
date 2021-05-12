@@ -12,6 +12,7 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
 h1,
 h3 {
   color: burlywood;
@@ -22,21 +23,21 @@ h3 {
   font-family: 'Merienda', cursive;
 }
 
+p:hover {
+  background-color: black;
+  color: white;
+}
 p::after {
+  content: '🎍';
+}
+p::before {
   content: '🎍';
 }
 p,
 img {
   margin: 1%;
 }
+
 img {
   border: 10px solid rgb(4, 66, 28);
-}
-p:hover {
-  background-color: black;
-  color: white;
-}
-
-p::before {
-  content: '🎍';
 }
