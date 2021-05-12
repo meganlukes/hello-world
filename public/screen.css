@@ -21,7 +21,9 @@ h3 {
   padding: 1rem;
   font-family: 'Merienda', cursive;
 }
-h2 {
+
+p::after {
+  content: '🎍';
 }
 p {
 }
@@ -29,6 +31,7 @@ p:hover {
   background-color: black;
   color: white;
 }
-.bold {
-  font-weight: bold;
+
+p::before {
+  content: '🎍';
 }
