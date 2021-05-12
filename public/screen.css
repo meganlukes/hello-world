@@ -26,6 +26,7 @@ p::after {
   content: '🎍';
 }
 p {
+  margin: 1%;
 }
 p:hover {
   background-color: black;
